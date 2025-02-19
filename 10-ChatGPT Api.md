@@ -11,10 +11,10 @@ import openai
 
 ## **2. ตั้งค่า API Key**
 การใช้ OpenAI API จำเป็นต้องมี API Key ซึ่งสามารถสมัครได้ที่ [OpenAI](https://openai.com/)
-
+key (test) = "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"
 ```python
 # ✅ ตั้งค่า API Key (ต้องสมัคร OpenAI API และใช้ Key ของคุณ)
-OPENAI_API_KEY = "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"
+OPENAI_API_KEY = ""
 ```
 
 > **หมายเหตุ:** ควรเก็บ API Key เป็นความลับและไม่ควรเผยแพร่ในโค้ดที่เป็นสาธารณะ
